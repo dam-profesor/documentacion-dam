@@ -6,26 +6,26 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentacióm Curso ITB Julio 2024 Documentación">
+        <meta name="description" content="Documentacióm para el módulo de diseño de interfaces del ciclo formativo DAM">
       
       
-        <meta name="author" content="IsardVDI">
+        <meta name="author" content="CIFP Carlos III">
       
       
-        <link rel="canonical" href="http://localhost:9099/practicas/3.-drbd/">
+        <link rel="canonical" href="http://localhost:9099/Guia%20de%20documentos%20Mardown/1-introduccion/">
       
       
-        <link rel="prev" href="../2.-raid/">
+        <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../4.-drbd-ha/">
+        <link rel="next" href="../2-sintaxis/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
     
     
       
-        <title>3. DRBD - Curso_ITB</title>
+        <title>Introducción - Documentación DAM</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3-drbd" class="md-skip">
+        <a href="#introduccion" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -94,9 +94,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="../.." title="Curso_ITB" class="md-header__button md-logo" aria-label="Curso_ITB" data-md-component="logo">
+    <a href="../.." title="Documentación DAM" class="md-header__button md-logo" aria-label="Documentación DAM" data-md-component="logo">
       
-  <img src="../../images/isard_marca_RGB_rectangular.png" alt="logo">
+  <img src="../../images/logo-blanco.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -106,13 +106,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Curso_ITB
+            Documentación DAM
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3. DRBD
+              Introducción
             
           </span>
         </div>
@@ -155,18 +155,6 @@
 </div>
     
     
-      <div class="md-header__source">
-        <a href="https://gitlab.com/isard/cursoitb" title="Ir al repositorio" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
-  </div>
-  <div class="md-source__repository">
-    GitLab
-  </div>
-</a>
-      </div>
-    
   </nav>
   
 </header>
@@ -191,25 +179,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Curso_ITB" class="md-nav__button md-logo" aria-label="Curso_ITB" data-md-component="logo">
+    <a href="../.." title="Documentación DAM" class="md-nav__button md-logo" aria-label="Documentación DAM" data-md-component="logo">
       
-  <img src="../../images/isard_marca_RGB_rectangular.png" alt="logo">
+  <img src="../../images/logo-blanco.svg" alt="logo">
 
     </a>
-    Curso_ITB
+    Documentación DAM
   </label>
-  
-    <div class="md-nav__source">
-      <a href="https://gitlab.com/isard/cursoitb" title="Ir al repositorio" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
-  </div>
-  <div class="md-source__repository">
-    GitLab
-  </div>
-</a>
-    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -222,7 +198,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Curso Virtualización de Escritorios con IsardVDI
+        Documentación para Desarrollo de Interfaces
       </a>
     </li>
   
@@ -234,11 +210,109 @@
 
   
   
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Guia de documentos Mardown
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Guia de documentos Mardown
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Introducción
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Introducción
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-markdown" class="md-nav__link">
+    ¿Qué es Markdown?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-mkdocs" class="md-nav__link">
+    ¿Qué es MkDocs?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
   
     <li class="md-nav__item">
-      <a href="../../recursos/" class="md-nav__link">
-        Recursos
+      <a href="../2-sintaxis/" class="md-nav__link">
+        Sintaxis básica de Markdown
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -261,14 +335,14 @@
       
       
         <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-          Instalaciones
+          Uso MKdocs
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Instalaciones
+          Uso MKdocs
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -278,289 +352,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../instalaciones/configuraciones_hw/" class="md-nav__link">
-        Configuraciones hw
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../instalaciones/instalacion_servidor_isardvdi/" class="md-nav__link">
-        Instalación de servidor de Isard all-in-one
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-          Practicas
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Practicas
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../1.-router_mikrotik_y_alpine/" class="md-nav__link">
-        1. Routers con mikrotik y alpine linux
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2.-raid/" class="md-nav__link">
-        2. Práctica de Raid
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          3. DRBD
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        3. DRBD
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#anadir-red-escritorios" class="md-nav__link">
-    Añadir red escritorios
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4.-drbd-ha/" class="md-nav__link">
-        4. DRBD HA
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5.-qcows/" class="md-nav__link">
-        5. Modificar cadena en qcow
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../6.-ova/" class="md-nav__link">
-        6. Conversión de formatos
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../7.-clonar_ova/" class="md-nav__link">
-        7. Clonar una ova o qcow en un escritorio Isard
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../8.-postgres-cliente-servidor/" class="md-nav__link">
-        8. Servidor de PostgreSQL compartido con alumnos
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../9.-codimd/" class="md-nav__link">
-        9. Codimd. Install
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-          Seguridad
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Seguridad
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../seguridad/aplicativo/" class="md-nav__link">
-        Seguridad Aplicativo (web)
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../seguridad/sistemas/" class="md-nav__link">
-        Seguridad Sistemas
+      <a href="../../Uso%20MKdocs/1-instalarMKdocs/" class="md-nav__link">
+        Como empezar con MkDocs
       </a>
     </li>
   
@@ -600,8 +393,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#anadir-red-escritorios" class="md-nav__link">
-    Añadir red escritorios
+  <a href="#que-es-markdown" class="md-nav__link">
+    ¿Qué es Markdown?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-mkdocs" class="md-nav__link">
+    ¿Qué es MkDocs?
   </a>
   
 </li>
@@ -620,102 +420,15 @@
                 
                   
 
-  
-  
 
-
-<h1 id="3-drbd">3. DRBD<a class="headerlink" href="#3-drbd" title="Permanent link">&para;</a></h1>
-<p>Sistema de réplica en red de dispositivos de bloques (discos).</p>
-<p>Partimos de la práctica de raid.</p>
-<h2 id="anadir-red-escritorios">Añadir red escritorios<a class="headerlink" href="#anadir-red-escritorios" title="Permanent link">&para;</a></h2>
-<p>Paramos, añadimos red personal, arrancamos y configuramos IPs</p>
-<pre><code>NODO1: ip address add 10.0.0.1/24 dev enp2s0
-NODO2: ip address add 10.0.0.2/24 dev enp2s0
-</code></pre>
-<p>Comprobamos ping.</p>
-<h1 id="desactivar-fw">Desactivar fw<a class="headerlink" href="#desactivar-fw" title="Permanent link">&para;</a></h1>
-<p>Para evitar problemas al iniciar la práctica.</p>
-<p>systemctl disable --now ufw</p>
-<h2 id="instalar-drbd">Instalar DRBD<a class="headerlink" href="#instalar-drbd" title="Permanent link">&para;</a></h2>
-<p>wget -O- https://packages.linbit.com/package-signing-pubkey.asc | apt-key add -</p>
-<p>PVERS=8 &amp;&amp; echo "deb https://packages.linbit.com/proxmox/ proxmox-$PVERS drbd-9" &gt;     /etc/apt/sources.list.d/linbit.list &amp;&amp; apt update -y &amp;&amp; apt install -y drbd-dkms drbd-utils drbd-doc&amp;&amp; dkms status</p>
-<h2 id="configuracion-drbd">Configuración DRBD<a class="headerlink" href="#configuracion-drbd" title="Permanent link">&para;</a></h2>
-<p>Configuramos en los dos nodos en <code>/etc/drbd.d/storage.res</code>:</p>
-<div class="highlight"><pre><span></span><code>resource storage {
-    handlers {
-        fence-peer &quot;/usr/lib/drbd/crm-fence-peer.9.sh&quot;;
-        unfence-peer &quot;/usr/lib/drbd/crm-unfence-peer.9.sh&quot;;
-    }
-
-    options {
-        quorum off;
-    }
-
-    net {
-        #cram-hmac-alg     sha1;
-        #shared-secret     &quot;4XtZfDZHuU796UwYb31y&quot;;
-        allow-two-primaries no;
-        fencing dont-care;
-        #fencing resource-and-stonith;
-
-        after-sb-0pri discard-zero-changes;
-        after-sb-1pri discard-secondary;
-        after-sb-2pri disconnect;
-    }
-
-    on server1 {
-        node-id 0;
-        address ipv4 10.0.0.1:7900;
-    volume 0 {
-        device minor 0;
-            disk /dev/md0;
-    }
-    }
-
-    on server2 {
-        node-id 1;
-        address ipv4 10.0.0.2:7900;
-    volume 0 {
-        device minor 0;
-            disk /dev/md0;
-    }
-    }
-
-    connection-mesh {
-                hosts server1 server2;
-        net {
-            protocol C;
-        }
-    }
-}
-</code></pre></div>
-<pre><code>drbdsetup status
-</code></pre>
-<h2 id="activar-drbd">Activar DRBD<a class="headerlink" href="#activar-drbd" title="Permanent link">&para;</a></h2>
-<p>Configuramos el nombre de servidor en /etc/hostname i ahora en caliente con <code>hostnamectl set-hostname server2</code></p>
-<p>En los dos nodos creamos los metadatos drbd en los discos y activamos el dispositivo de bloques de almacenamiento por red drbd:</p>
-<pre><code>wipefs -a /dev/md0
-drbdadm create-md storage
-drbdadm up storage
-</code></pre>
-<p>En uno de los nodos forzamos a que sea primario para empezar la sincronización:</p>
-<pre><code>drbdadm primary storage --force   #Solo en uno de los nodos
-</code></pre>
-<p>Comprobamos que va con <code>drbdadm status</code>.</p>
-<p>Creamos en el primario el sistema de ficheros y lo montamos en /dev/drbd0:</p>
-<pre><code>mkfs.xfs /dev/drbd0
-mount /dev/drbd0 /mnt
-touch /mnt/DATOS
-</code></pre>
-<h2 id="pruebas-manuales">Pruebas manuales<a class="headerlink" href="#pruebas-manuales" title="Permanent link">&para;</a></h2>
-<p>Desmontamos /mnt y ponemos en secundario:</p>
-<pre><code>umount /mnt
-drbdadm secondary storage
-</code></pre>
-<p>Vamos al otro nodo y hacemos el montaje (el drbd ya pone automáticamente el recurso en primario):</p>
-<pre><code>mount /dev/drbd0 /mnt
-</code></pre>
-<p>Comprobamos que está el fichero /mnt/DATOS en el nuevo nodo.</p>
+<h1 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h1>
+<h2 id="que-es-markdown">¿Qué es Markdown?<a class="headerlink" href="#que-es-markdown" title="Permanent link">&para;</a></h2>
+<p>Markdown es un lenguaje de marcado ligero que permite escribir documentos con formato de manera sencilla. 
+Los archivos Markdown tienen la extensión .md o .markdown. La simplicidad de Markdown lo hace ideal para 
+escribir documentación.</p>
+<h2 id="que-es-mkdocs">¿Qué es MkDocs?<a class="headerlink" href="#que-es-mkdocs" title="Permanent link">&para;</a></h2>
+<p>MkDocs es una herramienta de generación de sitios estáticos diseñada para la creación de documentación en Markdown. 
+Con ella, puedes organizar tus archivos .md en un sitio web con navegación estructurada y temas personalizables.</p>
 
 
 
@@ -737,7 +450,7 @@ drbdadm secondary storage
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 <a href="http://www.isardvdi.com">IsardVDI</a>.
+      Copyright &copy; 2024 <a href="https://cifpcarlos3.es/es">CIFPP Carlos III</a>.
     </div>
   
   

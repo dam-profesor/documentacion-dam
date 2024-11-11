@@ -2,77 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://localhost:9099/</loc>
-         <lastmod>2024-11-08</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:9099/recursos/</loc>
-         <lastmod>2024-11-08</lastmod>
+         <loc>http://localhost:9099/Guia%20de%20documentos%20Mardown/1-introduccion/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:9099/instalaciones/configuraciones_hw/</loc>
-         <lastmod>2024-11-08</lastmod>
+         <loc>http://localhost:9099/Guia%20de%20documentos%20Mardown/2-sintaxis/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:9099/instalaciones/instalacion_servidor_isardvdi/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/1.-router_mikrotik_y_alpine/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/2.-raid/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/3.-drbd/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/4.-drbd-ha/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/5.-qcows/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/6.-ova/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/7.-clonar_ova/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/8.-postgres-cliente-servidor/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/practicas/9.-codimd/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/seguridad/aplicativo/</loc>
-         <lastmod>2024-11-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>http://localhost:9099/seguridad/sistemas/</loc>
-         <lastmod>2024-11-08</lastmod>
+         <loc>http://localhost:9099/Uso%20MKdocs/1-instalarMKdocs/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
